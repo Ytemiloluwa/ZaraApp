@@ -16,6 +16,7 @@
 		A7C7BC0F2961FCBB004D3446 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC0E2961FCBB004D3446 /* CloseButton.swift */; };
 		A7C7BC1129620033004D3446 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC1029620033004D3446 /* BorderedButton.swift */; };
 		A7C7BC13296235A5004D3446 /* iconButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC12296235A5004D3446 /* iconButton.swift */; };
+		A7C7BC1529623680004D3446 /* FilledButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC1429623680004D3446 /* FilledButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		A7C7BC0E2961FCBB004D3446 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
 		A7C7BC1029620033004D3446 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 		A7C7BC12296235A5004D3446 /* iconButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iconButton.swift; sourceTree = "<group>"; };
+		A7C7BC1429623680004D3446 /* FilledButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilledButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 				A7C7BC0E2961FCBB004D3446 /* CloseButton.swift */,
 				A7C7BC1029620033004D3446 /* BorderedButton.swift */,
 				A7C7BC12296235A5004D3446 /* iconButton.swift */,
+				A7C7BC1429623680004D3446 /* FilledButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -209,6 +212,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C7BC0F2961FCBB004D3446 /* CloseButton.swift in Sources */,
+				A7C7BC1529623680004D3446 /* FilledButton.swift in Sources */,
 				A7C7BC0C2961ED12004D3446 /* View+.swift in Sources */,
 				A7C7BC1129620033004D3446 /* BorderedButton.swift in Sources */,
 				A77380E629610608008965BB /* ContentView.swift in Sources */,
