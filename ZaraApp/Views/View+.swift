@@ -41,7 +41,7 @@ extension View {
         self.background(Color.background)
     }
     
-    func reverseColor() -> some View  {
+    func reverseBgColor() -> some View  {
         
         
         self.background(Color.text)
