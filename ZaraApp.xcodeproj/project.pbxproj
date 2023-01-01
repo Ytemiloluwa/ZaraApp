@@ -14,6 +14,7 @@
 		A7C7BC0A29618243004D3446 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC0929618243004D3446 /* Color+.swift */; };
 		A7C7BC0C2961ED12004D3446 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC0B2961ED12004D3446 /* View+.swift */; };
 		A7C7BC0F2961FCBB004D3446 /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC0E2961FCBB004D3446 /* CloseButton.swift */; };
+		A7C7BC1129620033004D3446 /* BorderedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC1029620033004D3446 /* BorderedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		A7C7BC0929618243004D3446 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 		A7C7BC0B2961ED12004D3446 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 		A7C7BC0E2961FCBB004D3446 /* CloseButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		A7C7BC1029620033004D3446 /* BorderedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				A7C7BC0E2961FCBB004D3446 /* CloseButton.swift */,
+				A7C7BC1029620033004D3446 /* BorderedButton.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			files = (
 				A7C7BC0F2961FCBB004D3446 /* CloseButton.swift in Sources */,
 				A7C7BC0C2961ED12004D3446 /* View+.swift in Sources */,
+				A7C7BC1129620033004D3446 /* BorderedButton.swift in Sources */,
 				A77380E629610608008965BB /* ContentView.swift in Sources */,
 				A7C7BC0A29618243004D3446 /* Color+.swift in Sources */,
 				A77380E429610608008965BB /* ZaraAppApp.swift in Sources */,
