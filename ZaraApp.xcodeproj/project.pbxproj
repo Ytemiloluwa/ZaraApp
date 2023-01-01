@@ -12,6 +12,7 @@
 		A77380E82961060A008965BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77380E72961060A008965BB /* Assets.xcassets */; };
 		A77380EB2961060A008965BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77380EA2961060A008965BB /* Preview Assets.xcassets */; };
 		A7C7BC0A29618243004D3446 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC0929618243004D3446 /* Color+.swift */; };
+		A7C7BC0C2961ED12004D3446 /* View+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC0B2961ED12004D3446 /* View+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		A77380E72961060A008965BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77380EA2961060A008965BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A7C7BC0929618243004D3446 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
+		A7C7BC0B2961ED12004D3446 /* View+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		A77380F129610815008965BB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A7C7BC0B2961ED12004D3446 /* View+.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -188,6 +191,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C7BC0C2961ED12004D3446 /* View+.swift in Sources */,
 				A77380E629610608008965BB /* ContentView.swift in Sources */,
 				A7C7BC0A29618243004D3446 /* Color+.swift in Sources */,
 				A77380E429610608008965BB /* ZaraAppApp.swift in Sources */,
