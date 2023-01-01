@@ -14,7 +14,7 @@ struct FilledButton: View {
         
         Button(action: action, label: {
             
-            Text("text")
+            Text(text)
                 .boldFont()
                 .reverseTextColor()
                 .padding(.horizontal, 30)
