@@ -11,6 +11,7 @@
 		A77380E629610608008965BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E529610608008965BB /* ContentView.swift */; };
 		A77380E82961060A008965BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77380E72961060A008965BB /* Assets.xcassets */; };
 		A77380EB2961060A008965BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77380EA2961060A008965BB /* Preview Assets.xcassets */; };
+		A7C7BC0A29618243004D3446 /* Color+.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC0929618243004D3446 /* Color+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		A77380E529610608008965BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A77380E72961060A008965BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A77380EA2961060A008965BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7C7BC0929618243004D3446 /* Color+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,12 @@
 		A77380E229610608008965BB /* ZaraApp */ = {
 			isa = PBXGroup;
 			children = (
+				A77380F62961084F008965BB /* UIKit */,
+				A77380F529610847008965BB /* Screens */,
+				A77380F429610841008965BB /* Data */,
+				A77380F329610835008965BB /* Extensions */,
+				A77380F22961082C008965BB /* Utils */,
+				A77380F129610815008965BB /* Views */,
 				A77380E329610608008965BB /* ZaraAppApp.swift */,
 				A77380E529610608008965BB /* ContentView.swift */,
 				A77380E72961060A008965BB /* Assets.xcassets */,
@@ -65,6 +73,49 @@
 				A77380EA2961060A008965BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A77380F129610815008965BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A77380F22961082C008965BB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A77380F329610835008965BB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A7C7BC0929618243004D3446 /* Color+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A77380F429610841008965BB /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A77380F529610847008965BB /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		A77380F62961084F008965BB /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77380E629610608008965BB /* ContentView.swift in Sources */,
+				A7C7BC0A29618243004D3446 /* Color+.swift in Sources */,
 				A77380E429610608008965BB /* ZaraAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
