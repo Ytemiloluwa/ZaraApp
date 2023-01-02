@@ -20,6 +20,7 @@
 		A7C7BC1729623B14004D3446 /* NakedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC1629623B14004D3446 /* NakedButton.swift */; };
 		A7C7BC1929623E23004D3446 /* LargeNakedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC1829623E23004D3446 /* LargeNakedButton.swift */; };
 		A7C7BC1B29623F50004D3446 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC1A29623F50004D3446 /* LoginScreen.swift */; };
+		A7F65BE92962D26F0042E570 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F65BE82962D26F0042E570 /* Tab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		A7C7BC1629623B14004D3446 /* NakedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NakedButton.swift; sourceTree = "<group>"; };
 		A7C7BC1829623E23004D3446 /* LargeNakedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeNakedButton.swift; sourceTree = "<group>"; };
 		A7C7BC1A29623F50004D3446 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		A7F65BE82962D26F0042E570 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 		A77380E229610608008965BB /* ZaraApp */ = {
 			isa = PBXGroup;
 			children = (
+				A7F65BE72962D2590042E570 /* Models */,
 				A77380F62961084F008965BB /* UIKit */,
 				A77380F529610847008965BB /* Screens */,
 				A77380F429610841008965BB /* Data */,
@@ -150,6 +153,14 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		A7F65BE72962D2590042E570 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7F65BE82962D26F0042E570 /* Tab.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -223,6 +234,7 @@
 				A7C7BC0F2961FCBB004D3446 /* CloseButton.swift in Sources */,
 				A7C7BC1529623680004D3446 /* FilledButton.swift in Sources */,
 				A7C7BC0C2961ED12004D3446 /* View+.swift in Sources */,
+				A7F65BE92962D26F0042E570 /* Tab.swift in Sources */,
 				A7C7BC1129620033004D3446 /* BorderedButton.swift in Sources */,
 				A77380E629610608008965BB /* ContentView.swift in Sources */,
 				A7C7BC1929623E23004D3446 /* LargeNakedButton.swift in Sources */,
