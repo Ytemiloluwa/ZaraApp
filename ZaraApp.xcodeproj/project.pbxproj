@@ -14,6 +14,7 @@
 		A72A9180296393B700972AB9 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A917F296393B700972AB9 /* CollectionCell.swift */; };
 		A72A918229639AD900972AB9 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A918129639AD900972AB9 /* PageView.swift */; };
 		A72A918429639ED300972AB9 /* Sizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A918329639ED300972AB9 /* Sizes.swift */; };
+		A72A91862963A12B00972AB9 /* VerticalPageIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A91852963A12B00972AB9 /* VerticalPageIndicator.swift */; };
 		A77380E429610608008965BB /* ZaraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E329610608008965BB /* ZaraAppApp.swift */; };
 		A77380E629610608008965BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E529610608008965BB /* ContentView.swift */; };
 		A77380E82961060A008965BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77380E72961060A008965BB /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		A72A917F296393B700972AB9 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		A72A918129639AD900972AB9 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		A72A918329639ED300972AB9 /* Sizes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sizes.swift; sourceTree = "<group>"; };
+		A72A91852963A12B00972AB9 /* VerticalPageIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalPageIndicator.swift; sourceTree = "<group>"; };
 		A77380E029610608008965BB /* ZaraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77380E329610608008965BB /* ZaraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaraAppApp.swift; sourceTree = "<group>"; };
 		A77380E529610608008965BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 				A7C7BC0D2961FCA0004D3446 /* Buttons */,
 				A7C7BC0B2961ED12004D3446 /* View+.swift */,
 				A72A918129639AD900972AB9 /* PageView.swift */,
+				A72A91852963A12B00972AB9 /* VerticalPageIndicator.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 				A7C7BC0F2961FCBB004D3446 /* CloseButton.swift in Sources */,
 				A7C7BC1529623680004D3446 /* FilledButton.swift in Sources */,
 				A7C7BC0C2961ED12004D3446 /* View+.swift in Sources */,
+				A72A91862963A12B00972AB9 /* VerticalPageIndicator.swift in Sources */,
 				A72A9180296393B700972AB9 /* CollectionCell.swift in Sources */,
 				A72A918229639AD900972AB9 /* PageView.swift in Sources */,
 				A72A918429639ED300972AB9 /* Sizes.swift in Sources */,
