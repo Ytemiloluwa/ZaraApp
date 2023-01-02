@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A72A91782962FEDD00972AB9 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A91772962FEDD00972AB9 /* Page.swift */; };
 		A72A917A2962FFF400972AB9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A91792962FFF400972AB9 /* Home.swift */; };
+		A72A917C296301A600972AB9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A917B296301A600972AB9 /* Store.swift */; };
 		A77380E429610608008965BB /* ZaraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E329610608008965BB /* ZaraAppApp.swift */; };
 		A77380E629610608008965BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E529610608008965BB /* ContentView.swift */; };
 		A77380E82961060A008965BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77380E72961060A008965BB /* Assets.xcassets */; };
@@ -30,6 +31,7 @@
 /* Begin PBXFileReference section */
 		A72A91772962FEDD00972AB9 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		A72A91792962FFF400972AB9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A72A917B296301A600972AB9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
 		A77380E029610608008965BB /* ZaraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77380E329610608008965BB /* ZaraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaraAppApp.swift; sourceTree = "<group>"; };
 		A77380E529610608008965BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 		A77380F429610841008965BB /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				A72A917B296301A600972AB9 /* Store.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 				A7C7BC1729623B14004D3446 /* NakedButton.swift in Sources */,
 				A7C7BC0A29618243004D3446 /* Color+.swift in Sources */,
 				A7F65BEB2962D3B60042E570 /* Category.swift in Sources */,
+				A72A917C296301A600972AB9 /* Store.swift in Sources */,
 				A77380E429610608008965BB /* ZaraAppApp.swift in Sources */,
 				A7C7BC1B29623F50004D3446 /* LoginScreen.swift in Sources */,
 				A7C7BC13296235A5004D3446 /* iconButton.swift in Sources */,
