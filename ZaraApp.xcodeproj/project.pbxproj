@@ -22,6 +22,7 @@
 		A7C7BC1B29623F50004D3446 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7BC1A29623F50004D3446 /* LoginScreen.swift */; };
 		A7F65BE92962D26F0042E570 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F65BE82962D26F0042E570 /* Tab.swift */; };
 		A7F65BEB2962D3B60042E570 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F65BEA2962D3B60042E570 /* Category.swift */; };
+		A7F65BED2962E9F90042E570 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F65BEC2962E9F90042E570 /* Product.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		A7C7BC1A29623F50004D3446 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		A7F65BE82962D26F0042E570 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
 		A7F65BEA2962D3B60042E570 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A7F65BEC2962E9F90042E570 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,6 +162,7 @@
 			children = (
 				A7F65BE82962D26F0042E570 /* Tab.swift */,
 				A7F65BEA2962D3B60042E570 /* Category.swift */,
+				A7F65BEC2962E9F90042E570 /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				A77380E429610608008965BB /* ZaraAppApp.swift in Sources */,
 				A7C7BC1B29623F50004D3446 /* LoginScreen.swift in Sources */,
 				A7C7BC13296235A5004D3446 /* iconButton.swift in Sources */,
+				A7F65BED2962E9F90042E570 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
