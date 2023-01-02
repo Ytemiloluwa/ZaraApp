@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A72A91782962FEDD00972AB9 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A91772962FEDD00972AB9 /* Page.swift */; };
+		A72A917A2962FFF400972AB9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A91792962FFF400972AB9 /* Home.swift */; };
 		A77380E429610608008965BB /* ZaraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E329610608008965BB /* ZaraAppApp.swift */; };
 		A77380E629610608008965BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E529610608008965BB /* ContentView.swift */; };
 		A77380E82961060A008965BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77380E72961060A008965BB /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		A72A91772962FEDD00972AB9 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		A72A91792962FFF400972AB9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		A77380E029610608008965BB /* ZaraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77380E329610608008965BB /* ZaraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaraAppApp.swift; sourceTree = "<group>"; };
 		A77380E529610608008965BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 				A7F65BEA2962D3B60042E570 /* Category.swift */,
 				A7F65BEC2962E9F90042E570 /* Product.swift */,
 				A72A91772962FEDD00972AB9 /* Page.swift */,
+				A72A91792962FFF400972AB9 /* Home.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				A7C7BC1B29623F50004D3446 /* LoginScreen.swift in Sources */,
 				A7C7BC13296235A5004D3446 /* iconButton.swift in Sources */,
 				A7F65BED2962E9F90042E570 /* Product.swift in Sources */,
+				A72A917A2962FFF400972AB9 /* Home.swift in Sources */,
 				A72A91782962FEDD00972AB9 /* Page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
