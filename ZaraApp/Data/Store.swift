@@ -11,7 +11,7 @@ import Foundation
 class Store: ObservableObject {
     
     
-    struct state {
+    struct State {
         
         var products: [Product]
         var bookmarked: [Product]
@@ -26,5 +26,38 @@ class Store: ObservableObject {
         case removeFromBookmark(_ index: Int)
         case addToCart(_ product: Product)
         case login
+    }
+    
+    @Published private(set) var state: State = .init(products: [], bookmarked: [], shoppingCart: [])
+    
+    func dispatch(_ action: Action) {
+        
+        reducer(state: &state, action: action)
+    }
+    
+    
+    func reducer(state: inout State, action: Action) {
+        
+        switch action {
+            
+        case .bookmark(let product):
+            state.bookmarked.append(product)
+            
+        case.addToCart(let product):
+            state.shoppingCart.append(product)
+            
+        case.removeFromBookmark(let index):
+            state.bookmarked.remove(at: index)
+            
+        case.addProducts(let products):
+            state.products = products
+            
+        case .login:
+            DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 0.3) { [weak self] in
+                
+                self?.state.isLogggedIn = true
+            }
+            
+        }
     }
 }
