@@ -10,6 +10,8 @@
 		A72A91782962FEDD00972AB9 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A91772962FEDD00972AB9 /* Page.swift */; };
 		A72A917A2962FFF400972AB9 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A91792962FFF400972AB9 /* Home.swift */; };
 		A72A917C296301A600972AB9 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A917B296301A600972AB9 /* Store.swift */; };
+		A72A917E296333FF00972AB9 /* CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A917D296333FF00972AB9 /* CollectionView.swift */; };
+		A72A9180296393B700972AB9 /* CollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A917F296393B700972AB9 /* CollectionCell.swift */; };
 		A77380E429610608008965BB /* ZaraAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E329610608008965BB /* ZaraAppApp.swift */; };
 		A77380E629610608008965BB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A77380E529610608008965BB /* ContentView.swift */; };
 		A77380E82961060A008965BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A77380E72961060A008965BB /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		A72A91772962FEDD00972AB9 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		A72A91792962FFF400972AB9 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		A72A917B296301A600972AB9 /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		A72A917D296333FF00972AB9 /* CollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionView.swift; sourceTree = "<group>"; };
+		A72A917F296393B700972AB9 /* CollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCell.swift; sourceTree = "<group>"; };
 		A77380E029610608008965BB /* ZaraApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZaraApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A77380E329610608008965BB /* ZaraAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZaraAppApp.swift; sourceTree = "<group>"; };
 		A77380E529610608008965BB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 		A77380F62961084F008965BB /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				A72A917D296333FF00972AB9 /* CollectionView.swift */,
+				A72A917F296393B700972AB9 /* CollectionCell.swift */,
 			);
 			path = UIKit;
 			sourceTree = "<group>";
@@ -246,9 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A72A917E296333FF00972AB9 /* CollectionView.swift in Sources */,
 				A7C7BC0F2961FCBB004D3446 /* CloseButton.swift in Sources */,
 				A7C7BC1529623680004D3446 /* FilledButton.swift in Sources */,
 				A7C7BC0C2961ED12004D3446 /* View+.swift in Sources */,
+				A72A9180296393B700972AB9 /* CollectionCell.swift in Sources */,
 				A7F65BE92962D26F0042E570 /* Tab.swift in Sources */,
 				A7C7BC1129620033004D3446 /* BorderedButton.swift in Sources */,
 				A77380E629610608008965BB /* ContentView.swift in Sources */,
