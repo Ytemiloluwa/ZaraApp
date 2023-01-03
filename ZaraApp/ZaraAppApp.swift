@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct ZaraAppApp: App {
+    @StateObject private var store = Store()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(store)
         }
     }
 }
