@@ -16,7 +16,7 @@ class Store: ObservableObject {
         var products: [Product]
         var bookmarked: [Product]
         var shoppingCart: [Product]
-        var isLogggedIn: Bool = false
+        var isLogggedIn: Bool = true
     }
     
     enum Action {
