@@ -1,2 +1,2 @@
 # ZaraApp
-E-commerce App with SwiftUI &amp; UIKit
+E-commerce App with SwiftUI, UIKit & TCA Architecture.
