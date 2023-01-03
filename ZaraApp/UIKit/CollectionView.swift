@@ -18,7 +18,7 @@ struct CollectionView: UIViewRepresentable {
     
     func makeUIView(context: Context) -> UICollectionView {
         
-        let layout = UICollectionViewLayout()
+        let layout = UICollectionViewFlowLayout()
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView.backgroundColor = .clear
         collectionView.register(CollectionCell.self, forCellWithReuseIdentifier: CollectionCell.reusedId)
@@ -27,7 +27,7 @@ struct CollectionView: UIViewRepresentable {
         collectionView.isPagingEnabled = true
         collectionView.alwaysBounceVertical = false
         collectionView.showsVerticalScrollIndicator = true
-        //layout.minimumLineSpacing = 0
+        layout.minimumLineSpacing = 0
         
         return collectionView
     }
