@@ -11,7 +11,7 @@ struct VerticalPageIndicator: View {
     
     var numberOfPages: Int = 5
     
-    @Binding var selectedPageIndex: Int?
+    @Binding var selectedPageIndex: Int
     var body: some View {
         
         VStack {
@@ -36,6 +36,6 @@ struct VerticalPageIndicator: View {
 
 struct VerticalPageIndicator_Previews: PreviewProvider {
     static var previews: some View {
-        VerticalPageIndicator(selectedPageIndex: .constant(0))
+        VerticalPageIndicator(selectedPageIndex: .constant(1))
     }
 }
