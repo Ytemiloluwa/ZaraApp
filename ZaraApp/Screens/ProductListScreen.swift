@@ -36,6 +36,13 @@ struct ProductListScreen: View {
         }.onAppear(perform: {
             
            setProducts()
+        }).fullScreenCover(item: $selectedProduct, content: {
+            
+            
+            ProductDetailScreen(product: $0) {
+                
+                self.selectedProduct = nil
+            }
         })
     }
     
