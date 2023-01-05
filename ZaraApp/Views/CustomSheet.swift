@@ -26,7 +26,7 @@ struct CustomSheet<Content: View>: View {
     
     var content: (() -> Content)
     
-    init(progress: Binding<CGFloat>, foldedHeight: CGFloat = 300, expandedHeight: CGFloat = Sizes.screenWidth, @ViewBuilder content: @escaping(() -> Content)) {
+    init(progress: Binding<CGFloat>, foldedHeight: CGFloat = 400, expandedHeight: CGFloat = Sizes.screenWidth , @ViewBuilder content: @escaping(() -> Content)) {
         
         self._progress = progress
         self.content = content
