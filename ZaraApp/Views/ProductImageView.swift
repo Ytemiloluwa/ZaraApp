@@ -57,7 +57,7 @@ struct ProductImageView: View {
         }).onEnded { value in
             if value < CGFloat(1) {
                 
-                self.zoomLevel
+                self.zoomLevel = 1
             }
         }
     }
