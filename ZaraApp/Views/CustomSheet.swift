@@ -41,7 +41,7 @@ struct CustomSheet<Content: View>: View {
             createContent()
         }.frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .bottom)
             .onAppear(perform: {
-            yOffset = deltaHeight()
+                yOffset = deltaHeight()
             })
     }
     
@@ -59,7 +59,7 @@ struct CustomSheet<Content: View>: View {
                 
                 handleOnEnded(drag)
             }
-            
+                     
             ).animation(.easeInOut, value: self.sheetState)
     }
     
@@ -100,12 +100,12 @@ struct CustomSheet<Content: View>: View {
 
 struct CustomSheet_Previews: PreviewProvider {
     static var previews: some View {
-        CustomSheet(progress: .constant(0), foldedHeight: 200, expandedHeight: UIScreen.main.bounds.height - 200 , content: {
+        CustomSheet(progress: .constant(0), foldedHeight: 200, expandedHeight: UIScreen.main.bounds.height - 200) {
             
             Text("This is a custom sheet")
-        })
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.blue)
-        .edgesIgnoringSafeArea(.all)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background(Color.blue)
+                .edgesIgnoringSafeArea(.all)
+        }
     }
 }
